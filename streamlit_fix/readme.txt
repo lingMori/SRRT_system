@@ -1,0 +1,4 @@
+about  dashborah data_training 就是三个页面对应的代码
+main是整合的
+data_mlt_train是写的模拟训练函数
+其他文件都是图标视频之类的配置

@@ -1,0 +1,30 @@
+--------------start---------------
+device: cuda
+datapath: Data_all.npy
+datasplit_or_not: 0
+traindata: C:\Users\Admin\PycharmProjects\Projectwb\SRRT_system\code_backup_08_12\data\only_SH.npy
+testdata: C:\Users\Admin\PycharmProjects\Projectwb\SRRT_system\code_backup_08_12\data\without_SH.npy
+period: 2
+scale: 2
+test_ratio: 0.2
+seed: 42
+batch_size: 4
+step_size: 30
+aug_switch: True
+lr: 1e-06
+gamma: 0.2
+weight_decay: 0.1
+maskvalue: 1e-06
+epochs_P1: 20
+epochs_P2: 20
+characteristic_index: [0 1 2 3 4 5 6]
+target_index: [1 2 3 4 5 6]
+N_LOS_switch: True
+state: 1
+weight_lastname: ZHY_Session_std_aprted_stage2WithoutStd.pth
+logname: ZHY_Session_std_aprted_stage2WithoutStd.txt
+jpgname: ZHY_Session_std_aprted_stage2WithoutStd.jpg
+csvname: ZHY_Session_std_aprted_stage2WithoutStd.csv
+argsname: argsZHY_Session_std_aprted_stage2WithoutStd.txt
+wight_lastname: ZHY_Session_std_aprted_stage2WithoutStd.pth
+---------------end----------------
